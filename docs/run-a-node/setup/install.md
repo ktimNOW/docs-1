@@ -19,6 +19,8 @@ Due to the higher TPS on MainNet, to successfully run an Algorand MainNet node, 
 
 Participation nodes (especially those with high stake) and relays have higher requirements to ensure the performance of the overall blockchain.
 
+Using 3rd party services such as NOWNodes (https://nownodes.io/nodes) allows to run Algorand nodes even if you don't match recommended hardware requirements.
+
 ### Package manager installation overview
 
 See [Node Artifacts](../../reference/artifacts) reference for a detailed list of some of files that are installed by this method. An environment variable can be set that points to the data directory and goal will use that variable if no `-d` flag is specified. The binaries will be installed in the `/usr/bin` and the data directory will be set to `/var/lib/algorand`. It is recommended to add to shell config files the following environment variable that points to the data directory:
